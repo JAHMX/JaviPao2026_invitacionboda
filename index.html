@@ -126,15 +126,21 @@
               var year = now.getFullYear() + 1;
           
               var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var harih = '03/21/2020 17:00:00';
+              var harih = '07/18/2026 18:00:00';
 
               $('#hitungmundur').countdown({
                 date: harih, // TODO Date format: 07/27/2017 17:00:00
-                offset: +7, // TODO Your Timezone Offset
-                day: 'Hari',
-                days: 'Hari'
+                offset: -4, // TODO Your Timezone Offset
+                day: 'Día',
+                days: 'Días',
+                hour: 'Hora',
+                hours: 'Horas',
+                minute: 'Minuto',
+                minutes: 'Minutos',
+                second: 'Segundo',
+                seconds: 'Segundos'
               }, function () {
-                alert('Done!');
+                alert('¡Llegó el gran día!');
               });
             </script>  
           </div>
