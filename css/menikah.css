@@ -29,17 +29,17 @@ html {
 }
 
 .navbar-item.is-active{
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #62C5F0;
 }
 
 .a.navbar-item{
-  font-color: #996E6D;
+  font-color: #62C5F0;
 }
 
 
 .hero {
   background-image: url("../image/portada01.jpg");
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("../image/portada01.jpg") no-repeat;
+  background: linear-gradient(rgba(97,156,250,0.6), rgba(77,240,237,0.6)), url("../image/portada01.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
@@ -95,24 +95,28 @@ html {
   font-size: 1rem;
 }
 
+.hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li {
-  display: inline-block;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding: 0 14px;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #62C5F0;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
-  color: #996E6D;
+  color: #62C5F0;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
-  color: #996E6D;
+  color: #62C5F0;
   transition: all .2s ease-in-out;
-  border-bottom: 2px solid #c28285;
+  border-bottom: 2px solid #62C5F0;
 }
 
 
@@ -131,12 +135,12 @@ html {
 }
 
 .main-content .section-dark {
-  background-color: #F4E2E2;
+  background-color: #FAFAFA;
   padding: 80px 40px;
 }
 
 .main-content .section-darker {
-  background-color: #EDD2D1;
+  background-color: #96DBF6;
   padding: 80px 40px;
 }
 
@@ -157,9 +161,9 @@ html {
 }
 
 .main-content .section-dark.resume button {
-  border: 2px solid #996E6D;
+  border: 2px solid #62C5F0;
   background: white;
-  color: #996E6D;
+  color: #62C5F0;
   height: 50px;
   width: 250px;
   font-size: 1rem;
@@ -167,7 +171,7 @@ html {
 }
 
 .main-content .section-dark.resume .fa-download {
-  color: #996E6D;
+  color: #62C5F0;
 }
 
 .main-content .section-dark.my-work {
@@ -273,7 +277,7 @@ html {
 
 .main-content .section-color.pertanyaan {
   padding: 100px;
-  background-color: #996E6D;
+  background-color: #62C5F0;
   color: white;
 }
 
@@ -290,7 +294,7 @@ html {
 .main-content .section-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
-  color: #996E6D;
+  color: #62C5F0;
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 0px;
@@ -299,7 +303,7 @@ html {
 
 .nama-lengkap {
   font-family: 'Rouge Script', sans-serif;
-  color: #996E6D;
+  color: #62C5F0;
   font-size: 3.5rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
@@ -309,7 +313,7 @@ html {
 .ampersand {
 font-size: 5rem;
 font-family: 'Rouge Script', sans-serif;
-color: #996E6D;
+color: #62C5F0;
 line-height: 5rem;
 display: inline-block;
 vertical-align: middle;
@@ -350,7 +354,7 @@ vertical-align: middle;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
+  background: #619CFA;
   color: whitesmoke;    
 }
 
@@ -375,7 +379,7 @@ vertical-align: middle;
 .cuenta-bancaria {
   margin-top: 20px;
   padding: 20px;
-  background-color: #F4E2E2;
+  background-color: #FAFAFA;
   border-radius: 10px;
   display: inline-block;
 }
@@ -423,7 +427,7 @@ vertical-align: middle;
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #996E6D;
+  background-color: #62C5F0;
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -436,18 +440,18 @@ vertical-align: middle;
 }
 
 #toTop:hover {
-  background-color: #BC8887;
+  background-color: #96DBF6;
 }
 
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #F4E2E2;
+  background-color: #FAFAFA;
 }
 
 ::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px #996E6D;
-  -webkit-box-shadow: inset 0 0 6px #996E6D;
-  background-color: #BC8887;
+  box-shadow: inset 0 0 6px #62C5F0;
+  -webkit-box-shadow: inset 0 0 6px #62C5F0;
+  background-color: #4DF0ED;
 }
 
 body.preloader-site {
@@ -457,7 +461,7 @@ body.preloader-site {
 .preloader-wrapper {
   height: 100%;
   width: 100%;
-  background: #D8A9A8;
+  background: #96DBF6;
   position: fixed;
   top: 0;
   left: 0;
@@ -570,11 +574,11 @@ body.preloader-site {
 {color:ghostwhite}
 
 
-.dusty-pink {color: #D8A9A8}
-.dusty-pink-lighter {color: #EDD2D1}
-.dusty-pink-lightest {color: #F4E2E2}
-.dusty-pink-darker {color: #BC8887}
-.dusty-pink-darkest {color: #996E6D}
+.dusty-pink {color: #E4BEE9}
+.dusty-pink-lighter {color: #96DBF6}
+.dusty-pink-lightest {color: #FAFAFA}
+.dusty-pink-darker {color: #4DF0ED}
+.dusty-pink-darkest {color: #62C5F0}
 
 .tile {
   border-radius: 10px;
@@ -582,7 +586,7 @@ body.preloader-site {
 
 
 .foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/juntos01.jpg");
+  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/juntos01.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -591,7 +595,7 @@ body.preloader-site {
 
 
 .foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/historia02.jpg");
+  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia02.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -599,7 +603,7 @@ body.preloader-site {
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/historia03.jpg");
+  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia03.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -607,7 +611,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/familia01.jpg");
+  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/familia01.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -615,7 +619,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/historia05.jpg");
+  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia05.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -624,7 +628,7 @@ body.preloader-site {
 
 
 .foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/historia06.jpg");
+  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia06.jpg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
@@ -660,7 +664,7 @@ body.preloader-site {
 }
 
 .instagram {
-  color: #996E6D;
+  color: #62C5F0;
   font-size: 1.25rem;
   font-weight: 900;
   margin-top: 0.5rem;
