@@ -372,6 +372,14 @@ vertical-align: middle;
   margin: 0 auto 30px auto;
 }
 
+.cuenta-bancaria {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #F4E2E2;
+  border-radius: 10px;
+  display: inline-block;
+}
+
 .main-content .no-padding-top {
   padding-top: 0px;
 }
