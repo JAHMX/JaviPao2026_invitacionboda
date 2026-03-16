@@ -611,7 +611,7 @@ body.preloader-site {
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/familia01.jpeg");
+  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia05.jpg");
   background-size: cover;
   background-position: top;
   background-repeat:no-repeat;
@@ -619,7 +619,7 @@ body.preloader-site {
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia05.jpg");
+  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/familia01.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat:no-repeat;
