@@ -22,10 +22,8 @@ html {
 .navbar-item {
   line-height: 38px;
   font-weight: 600;
-  text-transform: ;
   letter-spacing: 1px;
   font-size: 1rem;
-  box-shadow:  ;
 }
 
 .navbar-item.is-active{
@@ -39,15 +37,13 @@ html {
 
 .hero {
   background-image: url("../image/portada01.jpg");
-  background: linear-gradient(rgba(97,156,250,0.6), rgba(77,240,237,0.6)), url("../image/portada01.jpg") no-repeat;
+  background: linear-gradient(rgba(26,74,110,0.65), rgba(44,95,138,0.60)), url("../image/portada01.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: 'Raleway', sans-serif;
 }
-
-
 
 .hero .title {
   font-family: 'Rouge Script', sans-serif;
@@ -67,7 +63,6 @@ html {
 .hero .tempatwaktu {
   padding-top: 35px;
   font-size: 1.3rem;
-  
 }
 
 .hero .hero-foot {
@@ -90,7 +85,6 @@ html {
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
   line-height: 38px;
   font-weight: 600;
-  text-transform: ;
   letter-spacing: 1px;
   font-size: 1rem;
 }
@@ -128,26 +122,74 @@ html {
   height: 24px;
 }
 
+/* ─── SECCIÓN 1: Invitación — Blanco puro ─── */
 .main-content {
   padding-top: 2rem;
-  color: #000; 
+  color: #1a4a6e;
   font-family: 'Raleway', sans-serif;
 }
 
+/* ─── SECCIÓN 2: Fecha — Azul hielo ─── */
 .main-content .section-dark {
-  background-color: #FAFAFA;
+  background-color: #EBF5FC;
   padding: 80px 40px;
 }
 
+/* ─── SECCIONES oscuras: Ubicación y Regalos ─── */
 .main-content .section-darker {
-  background-color: #96DBF6;
+  background-color: #1a4a6e;
   padding: 80px 40px;
+}
+
+/* Sección Regalos usa un azul ligeramente diferente */
+#regalos.section-darker {
+  background-color: #2C5F8A;
+}
+
+/* Títulos en fondos claros (Fecha, Confirmación) */
+.main-content .section-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  color: #1a4a6e;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  padding-bottom: 60px;
+}
+
+/* Títulos en fondos oscuros (Ubicación, Regalos) */
+.main-content .section-darker .section-title {
+  color: #FFFFFF;
+}
+
+/* Texto general en fondos oscuros */
+.main-content .section-darker p,
+.main-content .section-darker h1,
+.main-content .section-darker strong,
+.main-content .section-darker .tempat,
+.main-content .section-darker .bodytext {
+  color: #d0e8f5;
+}
+
+.main-content .section-darker strong {
+  color: #EBF5FC;
+}
+
+/* Cuenta bancaria en sección regalos */
+.main-content .section-darker .cuenta-bancaria {
+  background-color: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #d0e8f5;
+}
+
+.main-content .section-darker .cuenta-bancaria p,
+.main-content .section-darker .cuenta-bancaria strong {
+  color: #d0e8f5;
 }
 
 .main-content .section-dark.resume {
   height: 400px;
   padding-top: 60px;
-
 }
 
 @media (max-width: 599px) {
@@ -179,8 +221,8 @@ html {
 }
 
 .main-content .section-cashbac {
-  background-color: rgb(238, 250, 253);
-  padding: 80px 40px; 
+  background-color: #EBF5FC;
+  padding: 80px 40px;
 }
 
 @media (max-width: 599px) {
@@ -207,11 +249,13 @@ html {
 }
 
 .section-map {
-  padding: 0 0 0 0 ;
+  padding: 0 0 0 0;
 }
 
+/* ─── SECCIÓN: Invitación y Confirmación — Blanco puro ─── */
 .main-content .section-light {
   padding: 80px 40px;
+  background-color: #FFFFFF;
 }
 
 .main-content .section-light.regular-section {
@@ -256,11 +300,13 @@ html {
   font-size: 24px;
 }
 
-.main-content .section-light.contact {
+/* ─── Confirmación — Azul hielo ─── */
+.main-content .section-dark.contact {
+  background-color: #EBF5FC;
   padding: 80px;
 }
 
-.main-content .section-light.contact button {
+.main-content .section-dark.contact button {
   width: 100%;
   color: white;
   height: 50px;
@@ -270,14 +316,14 @@ html {
 }
 
 @media (max-width: 599px) {
-  .main-content .section-light.contact {
+  .main-content .section-dark.contact {
     padding: 80px 40px;
   }
 }
 
 .main-content .section-color.pertanyaan {
   padding: 100px;
-  background-color: #62C5F0;
+  background-color: #1a4a6e;
   color: white;
 }
 
@@ -291,19 +337,9 @@ html {
   padding: 20px;
 }
 
-.main-content .section-title {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  color: #62C5F0;
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  letter-spacing: 0px;
-  padding-bottom: 60px;
-}
-
 .nama-lengkap {
   font-family: 'Rouge Script', sans-serif;
-  color: #62C5F0;
+  color: #1a4a6e;
   font-size: 3.5rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
@@ -311,21 +347,23 @@ html {
 }
 
 .ampersand {
-font-size: 5rem;
-font-family: 'Rouge Script', sans-serif;
-color: #62C5F0;
-line-height: 5rem;
-display: inline-block;
-vertical-align: middle;
+  font-size: 5rem;
+  font-family: 'Rouge Script', sans-serif;
+  color: #62C5F0;
+  line-height: 5rem;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .bodytext {
   font-size: 18px;
+  color: #1a4a6e;
 }
 
 .waktu {
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
+  color: #1a4a6e;
 }
 
 .tanggal-angka {
@@ -338,10 +376,8 @@ vertical-align: middle;
 .tempat {
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
-  font-size: ;
   margin-bottom: 50px;
 }
-
 
 .has-vertically-align {
   vertical-align: middle;
@@ -354,8 +390,8 @@ vertical-align: middle;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #619CFA;
-  color: whitesmoke;    
+  background: #1a4a6e;
+  color: whitesmoke;
 }
 
 .footer p {
@@ -379,8 +415,9 @@ vertical-align: middle;
 .cuenta-bancaria {
   margin-top: 20px;
   padding: 20px;
-  background-color: #FAFAFA;
+  background-color: rgba(255,255,255,0.12);
   border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
   display: inline-block;
 }
 
@@ -440,18 +477,18 @@ vertical-align: middle;
 }
 
 #toTop:hover {
-  background-color: #96DBF6;
+  background-color: #1a4a6e;
 }
 
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #FAFAFA;
+  background-color: #EBF5FC;
 }
 
 ::-webkit-scrollbar-thumb {
   box-shadow: inset 0 0 6px #62C5F0;
   -webkit-box-shadow: inset 0 0 6px #62C5F0;
-  background-color: #4DF0ED;
+  background-color: #62C5F0;
 }
 
 body.preloader-site {
@@ -461,7 +498,7 @@ body.preloader-site {
 .preloader-wrapper {
   height: 100%;
   width: 100%;
-  background: #96DBF6;
+  background: #1a4a6e;
   position: fixed;
   top: 0;
   left: 0;
@@ -477,59 +514,65 @@ body.preloader-site {
   width: 120px;
 }
 
-
 .btn-whatsapp:hover {
   color: white;
   background-color: #59a543;
   font-size: 1.2rem;
   border-radius: 10px;
   border: 2px solid #59a543;
-  width:  210px;
+  width: 210px;
   height: 65px;
   align-items: center;
   margin: 1rem;
 }
-
 
 .btn-whatsapp {
   background-color: #6cc751;
-  width:  210px;
+  width: 210px;
   height: 65px;
   color: white;
   font-size: 1.2rem;
-  border-radius: 10px;  
-  border-left: 1px solid #6cc751;
-  border-right: 1px solid #6cc751;
-  border-top: 1px solid #6cc751;
-  border-bottom: 1px solid #6cc751;
+  border-radius: 10px;
+  border: 1px solid #6cc751;
   align-items: center;
   margin: 1rem;
-
 }
 
-
 .btn-cta:hover {
-  color:white;
-  background-color: #4DF0ED;
+  color: white;
+  background-color: #1a4a6e;
   font-size: 1.2rem;
   border-radius: 10px;
-  border: 2px solid #4DF0ED;
-  width:  210px;
+  border: 2px solid #1a4a6e;
+  width: 210px;
   height: 65px;
   align-items: center;
   margin: 1rem;
 }
 
 .btn-cta {
-  background-color: #619CFA;
-  width:  210px;
+  background-color: #62C5F0;
+  width: 210px;
   height: 65px;
   color: white;
   font-size: 1.2rem;
-  border: 2px solid #619CFA;
+  border: 2px solid #62C5F0;
   border-radius: 10px;
   align-items: center;
   margin: 1rem;
+}
+
+/* Botones dentro de fondos oscuros */
+.section-darker .btn-cta {
+  background-color: #FFFFFF;
+  color: #1a4a6e;
+  border: 2px solid #FFFFFF;
+}
+
+.section-darker .btn-cta:hover {
+  background-color: #EBF5FC;
+  color: #1a4a6e;
+  border: 2px solid #EBF5FC;
 }
 
 .cashbac-logo-inline {
@@ -542,14 +585,13 @@ body.preloader-site {
   height: 55px;
   align-items: center;
   margin: 0.1rem;
-
 }
 
 .voucher-code {
   height: 55px;
   max-width: 180px;
   border: 2px solid #26ade4;
-  border-radius: 10px 0 0 10px  ;
+  border-radius: 10px 0 0 10px;
   font-size: 24px;
   padding: 15px;
 }
@@ -570,72 +612,66 @@ body.preloader-site {
 .fa-copy {
   margin-right: 5px;
 }
-.white
-{color:ghostwhite}
 
+.white { color: ghostwhite; }
 
-.dusty-pink {color: #E4BEE9}
-.dusty-pink-lighter {color: #96DBF6}
-.dusty-pink-lightest {color: #FAFAFA}
-.dusty-pink-darker {color: #4DF0ED}
-.dusty-pink-darkest {color: #62C5F0}
+.dusty-pink { color: #1a4a6e }
+.dusty-pink-lighter { color: #EBF5FC }
+.dusty-pink-lightest { color: #FFFFFF }
+.dusty-pink-darker { color: #62C5F0 }
+.dusty-pink-darkest { color: #2C5F8A }
 
 .tile {
   border-radius: 10px;
 }
 
-
 .foto1 {
-  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/juntos01.jpeg");
+  background-image: linear-gradient(rgba(26,74,110,0.45), rgba(44,95,138,0.65)), url("../image/juntos01.jpeg");
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   min-height: 24rem;
 }
 
-
 .foto2 {
-  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia02.jpg");
+  background-image: linear-gradient(rgba(26,74,110,0.45), rgba(44,95,138,0.65)), url("../image/historia02.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   min-height: 24rem;
 }
 
 .foto3 {
-  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia03.jpg");
+  background-image: linear-gradient(rgba(26,74,110,0.45), rgba(44,95,138,0.65)), url("../image/historia03.jpg");
   background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 24rem;
 }
 
 .foto4 {
-  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia05.jpg");
+  background-image: linear-gradient(rgba(26,74,110,0.45), rgba(44,95,138,0.65)), url("../image/historia05.jpg");
   background-size: cover;
   background-position: top;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   min-height: 24rem;
 }
 
 .foto5 {
-  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/familia01.jpeg");
+  background-image: linear-gradient(rgba(26,74,110,0.45), rgba(44,95,138,0.65)), url("../image/historia06.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   min-height: 24rem;
 }
-
 
 .foto6 {
-  background-image: linear-gradient(rgba(97,156,250,0.45), rgba(77,240,237,0.65)), url("../image/historia06.jpg");
+  background-image: linear-gradient(rgba(26,74,110,0.45), rgba(44,95,138,0.65)), url("../image/familia01.jpeg");
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   min-height: 24rem;
 }
-
-
 
 .title-foto {
   font-size: 18pt;
@@ -645,12 +681,10 @@ body.preloader-site {
   color: white;
 }
 
-
 .subtitle-foto {
   font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 14pt;
   font-weight: 600;
+  font-size: 14pt;
   margin-top: 15px;
   text-align: left;
   color: white;
@@ -664,7 +698,7 @@ body.preloader-site {
 }
 
 .instagram {
-  color: #62C5F0;
+  color: #2C5F8A;
   font-size: 1.25rem;
   font-weight: 900;
   margin-top: 0.5rem;
